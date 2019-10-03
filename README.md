@@ -11,7 +11,7 @@ The Lua script takes a single .cub file as an argument and outputs a .rbxmx file
 ```bash
 lua convert.lua some_blocky_house.cub
 ```
-You may also optionally provide a string to use as the Roblox model's Name property. For instance:
+You may also optionally provide a string to use as the Roblox model's Name property, for instance:
 ```bash
 lua convert.lua iron-greatsword5.cub greatsword
 ```
