@@ -1,6 +1,8 @@
 # cub2blox
 cub2blox is a simple Lua script that converts Cube World model files (.cub) to Roblox Studio model files (.rbxmx).
 
+![img](https://i.imgur.com/022eXqA.png)
+
 ## How to Use
 ```bash
 lua convert.lua <cubfile> [modelname]
