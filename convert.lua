@@ -53,9 +53,9 @@ local make_block_xml = function(x, y, z, c)
 				<token name="BottomSurface">4</token>
 				<token name="BottomSurfaceInput">0</token>
 				<CoordinateFrame name="CFrame">
-					<X>%s</X>
-					<Y>%s</Y>
-					<Z>%s</Z>
+					<X>%u</X>
+					<Y>%u</Y>
+					<Z>%u</Z>
 					<R00>1</R00>
 					<R01>0</R01>
 					<R02>0</R02>
@@ -69,7 +69,7 @@ local make_block_xml = function(x, y, z, c)
 				<bool name="CanCollide">true</bool>
 				<bool name="CastShadow">true</bool>
 				<int name="CollisionGroupId">0</int>
-				<Color3uint8 name="Color3uint8">%s</Color3uint8>
+				<Color3uint8 name="Color3uint8">%u</Color3uint8>
 				<PhysicalProperties name="CustomPhysicalProperties">
 					<CustomPhysics>false</CustomPhysics>
 				</PhysicalProperties>
